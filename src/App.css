@@ -50,7 +50,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* UPDATED CLASS NAMES from .form to .task-form */
+
 .task-form {
   display: flex;
   flex-direction: column;

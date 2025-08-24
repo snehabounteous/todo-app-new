@@ -18,7 +18,6 @@ const TaskCard: React.FC<TaskCardProps> = ({ task, removeTask, updateTask }) => 
     setIsEditing(false);
   };
 
-  // Toggle completed status handler
   const toggleCompleted = () => {
     updateTask({ ...task, completed: !task.completed });
   };
